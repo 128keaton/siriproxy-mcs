@@ -1,7 +1,6 @@
 #siriproxy-mcs
 Meant for me to check status of my minecraft server.
-###Video
-[Initial proof-of-concept](http://www.youtube.com/watch?v=l1QvFahhBUU)
+
 
 ###Commands
 
