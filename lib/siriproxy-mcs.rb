@@ -20,7 +20,7 @@ require 'McQuery'
     say "Checking minecraft server" 
     puts McQuery::Ping.new('mc.keatonburleson.com', 25565).doPing
  
-    say "Server version is" + :sversion + " have a nice day!"
+    say "Server version is" + $sversion
    request_completed
 end
  
