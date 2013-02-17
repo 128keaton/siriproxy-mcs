@@ -11,7 +11,7 @@ require 'McQuery'
 # I hope you find this as useful as I do. Home automation from your iPhone... 
 ######
 
-class SiriProxy::Plugin::MCS< SiriProxy::Plugin
+
  
 
 
@@ -20,7 +20,7 @@ class SiriProxy::Plugin::MCS< SiriProxy::Plugin
     say "Checking minecraft server" 
     puts McQuery::Ping.new('mc.keatonburleson.com', 25565).doPing
     request_completed
-    say "Server version is.@ #{:sversion}, have a nice day!"
+    say "Server version is.@ #{sversion}, have a nice day!"
 end
  
 end
